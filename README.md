@@ -1,6 +1,6 @@
 # Localmongo
 
-Local mongo replicaset for development using docker-compose.
+Local mongo replicaset running mongo:4.2-bionic for development using docker-compose.
 
 ## Setup
 
