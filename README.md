@@ -4,13 +4,20 @@ Local mongo replicaset running mongo:4.2-bionic for development using docker-com
 
 ## Setup
 
-Simply run:
+Switch to the directory of the version you want, and run:
 
 ```
 docker-compose up
 ```
 
 This should bring up 3 containers of mongodb, running a replicaset called `rs0`.
+
+If you wish to switch versions, make sure you clean up first:
+
+```
+docker-compose stop
+docker-compose rm
+```
 
 ## Application
 
